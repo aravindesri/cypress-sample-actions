@@ -1,0 +1,16 @@
+{
+  "viewportWidth": 1920,
+  "ignoreTestFiles": "README.md",
+  "reporter": "cypress-testrail-accumulative-custom-reporter",
+  "reporterOptions": {
+    "domain": "domain",
+    "username": "username",
+    "password": "password",
+    "projectId": 1,
+    "suiteId": 1,
+    "reportTemplateId": 1
+  },
+  "env": {
+    "url": "url"
+  }
+}
